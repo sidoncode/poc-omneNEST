@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 setupInterceptors(); 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/poc-omneNEST">
       <App />
     </BrowserRouter>
   </StrictMode>,
