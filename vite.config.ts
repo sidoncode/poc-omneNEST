@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   // Add this line - MUST match your repository name exactly
-  base: "/", 
+  base: "/poc-omneNEST/", 
   plugins: [tailwindcss(),react()],
   resolve: {
     alias: {
